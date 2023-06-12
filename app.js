@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const User = require('./models/user');
 
 const app = express();
-const port = 5000;
+const port = 3003;
 
 app.use(cors());
 app.use(express.json());
